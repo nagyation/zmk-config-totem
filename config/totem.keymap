@@ -103,10 +103,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp ESC         &kp UP                 &kp UP              &kp MINUS          &kp LBRC                &kp RBRC      &kp EQUAL     &kp KP_N8           &kp KP_N9               &kp KP_PLUS
-        &kp NUMBER_1    &mt LEFT_ALT NUMBER_2  &mt LCTRL NUMBER_3  &kp NUMBER_4       &kp NUMBER_5            &kp NUMBER_6  &kp NUMBER_7  &mt RCTRL NUMBER_8  &mt RIGHT_ALT NUMBER_9  &kp NUMBER_0
-&trans  &kp LEFT_ARROW  &kp DOWN_ARROW         &kp RIGHT_ARROW     &kp RIGHT_BRACKET  &kp LEFT_PARENTHESIS    &kp RPAR      &kp PLUS      &kp LEFT_BRACKET    &kp KP_N3               &kp KP_MULTIPLY  &trans
-                                               &trans              &trans             &trans                  &mo ADJ       &kp KP_N0     &trans
+        &kp ESC         &kp UP                 &kp UP              &kp MINUS          &kp LEFT_BRACE          &kp RIGHT_BRACE  &kp EQUAL     &kp KP_N8           &kp KP_N9              &kp KP_PLUS
+        &kp NUMBER_1    &mt LEFT_ALT NUMBER_2  &mt LCTRL NUMBER_3  &kp NUMBER_4       &kp NUMBER_5            &kp NUMBER_6     &kp NUMBER_7  &mt RCTRL NUMBER_8  &mt LEFT_ALT NUMBER_9  &kp NUMBER_0
+&trans  &kp LEFT_ARROW  &kp DOWN_ARROW         &kp RIGHT_ARROW     &kp RIGHT_BRACKET  &kp LEFT_PARENTHESIS    &kp RPAR         &kp PLUS      &kp LEFT_BRACKET    &kp KP_N3              &kp KP_MULTIPLY  &trans
+                                               &trans              &trans             &trans                  &mo ADJ          &kp KP_N0     &trans
             >;
         };
 
