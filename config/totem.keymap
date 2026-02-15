@@ -122,10 +122,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp EXCL         &kp AT       &kp HASH      &kp DLLR        &kp PRCNT      &kp CARET     &kp AMPS  &kp UP_ARROW   &kp SQT     &kp DQT
-        &kp EXCLAMATION  &kp LA(AT)   &kp LC(HASH)  &kp LS(DOLLAR)  &kp PERCENT    &kp CARET     &kp AMPS  &kp RC(ASTRK)  &kp RA(N4)  &kp RA(O)
-&trans  &kp RA(F18)      &kp RA(F19)  &trans        &trans          &trans         &kp C_VOL_DN  &kp LEFT  &kp DOWN       &kp RIGHT   &kp BSLH   &trans
-                                      &trans        &trans          &trans         &kp C_PP      &mo 3     &trans
+        &kp EXCL         &kp AT       &kp HASH      &kp DLLR        &kp QUESTION    &kp CARET     &kp AMPS  &kp UP_ARROW   &kp SQT     &kp DQT
+        &kp EXCLAMATION  &kp LA(AT)   &kp LC(HASH)  &kp LS(DOLLAR)  &kp PERCENT     &kp CARET     &kp AMPS  &kp RC(ASTRK)  &kp RA(N4)  &kp RA(O)
+&trans  &kp RA(F18)      &kp RA(F19)  &trans        &trans          &trans          &kp C_VOL_DN  &kp LEFT  &kp DOWN       &kp RIGHT   &kp BSLH   &trans
+                                      &trans        &trans          &trans          &kp C_PP      &mo 3     &trans
             >;
         };
 
