@@ -24,8 +24,8 @@
 
 &mt {
     flavor = "tap-preferred";
-    tapping-term-ms = <200>;
-    quick-tap-ms = <100>;
+    tapping-term-ms = <180>;
+    quick-tap-ms = <150>;
 };
 
 / {
@@ -123,10 +123,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp EXCL         &kp AT       &kp HASH        &kp DLLR               &kp QUESTION    &kp CARET     &kp AMPS  &kp UP_ARROW        &kp SQT    &kp DQT
-        &kp EXCLAMATION  &mt LALT AT  &mt LCTRL HASH  &mt LEFT_SHIFT DOLLAR  &kp PERCENT     &kp CARET     &kp AMPS  &mt LCTRL ASTERISK  &kp LALT   &kp LEFT_GUI
-&trans  &kp RA(F18)      &kp RA(F19)  &trans          &trans                 &trans          &kp C_VOL_DN  &kp LEFT  &kp DOWN            &kp RIGHT  &kp BSLH      &trans
-                                      &trans          &trans                 &trans          &kp C_PP      &mo 3     &trans
+        &kp EXCL         &kp AT       &kp LEFT_BRACKET  &kp DLLR               &kp LEFT_BRACE    &kp CARET     &kp AMPS  &kp UP_ARROW        &kp SQT    &kp DQT
+        &kp EXCLAMATION  &mt LALT AT  &mt LCTRL HASH    &mt LEFT_SHIFT DOLLAR  &kp PERCENT       &kp CARET     &kp AMPS  &mt LCTRL ASTERISK  &kp LALT   &kp LEFT_GUI
+&trans  &kp RA(F18)      &kp RA(F19)  &trans            &trans                 &trans            &kp C_VOL_DN  &kp LEFT  &kp DOWN            &kp RIGHT  &kp BSLH      &trans
+                                      &trans            &trans                 &trans            &kp C_PP      &mo 3     &trans
             >;
         };
 
